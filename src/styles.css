@@ -3,7 +3,7 @@ body {
   background: url(https://vignette.wikia.nocookie.net/hidden-city-mystery-of-shadows/images/b/be/Japanese_Garden_Clear_from_Illusions.png/revision/latest/top-crop/width/360/height/360?cb=20181221002630)
   ;
   background-repeat: no-repeat;
-  background-size: 1000px 1000px;
+  background-size: 1600px 1600px;
 }
 
 
@@ -15,6 +15,7 @@ form {
 
 .jumbotron {
   border-style: solid;
+  background-color: blanchedalmond;
 
 }
 

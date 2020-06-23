@@ -1,35 +1,35 @@
-export function Sudoku(colum, row, grid){
+export function Sudoku(column, row){
   this.column = column;
   this.row = row;
-  this.grid = grid;
-  this.userInput = [];
+  // this.grid = grid;
+  // this.userInput = [];
 }
 
 // function counter 
 
-Sudoku.prototype.checkRowCount = function() {
+Sudoku.prototype.checkRowCount = function(number) {
   let rowTotal = 0;
-  this.rowTotal.forEach(function(number){
+  this.row.forEach(function(number){
     rowTotal += number;
   })
     return rowTotal;
 }
 
-Sudoku.prototype.checkColumnCount = function() {
-  let columnTotal = 0;
-  this.columnTotal.forEach(function(number){
-    total += number;
-  })
-    return columnTotal;
-}
+// Sudoku.prototype.checkColumnCount = function(number) {
+//   let columnTotal = 0;
+//   this.columnTotal.forEach(function(number){
+//     total += number;
+//   })
+//     return columnTotal;
+// }
 
-Sudoku.prototype.checkSubGridCount = function() {
-  let subTotal = 0;
-  this.subTotal.forEach(function(number){
-    total += number;
-  })
-    return subTotal;
-}
+// Sudoku.prototype.checkSubGridCount = function(number) {
+//   let subTotal = 0;
+//   this.subTotal.forEach(function(number){
+//     total += number;
+//   })
+//     return subTotal;
+// }
 
 // export function buildBoard(){
 //   let grid = [

@@ -24,7 +24,7 @@ __
 | :---------- | :----- | :----- |
 | Diplay a 9x9 grid | none | grid is displayed |
 | Display a number in a cell | "9" | "9" |
-| behavior 2 | 'click' sauce | 'pesto', 'Alfredo', Or 'Marinara'  |
+| Display a row | 'click' sauce | 'pesto', 'Alfredo', Or 'Marinara'  |
 | behavior 3 | 'click' check boxs | adds toppings choosen |
 | behavior 4 | 'click' Submit | final price |
 

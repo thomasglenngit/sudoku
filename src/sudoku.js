@@ -1,7 +1,34 @@
-export function Sudoku(colum, row){
+export function Sudoku(colum, row, grid){
   this.column = column;
   this.row = row;
+  this.grid = grid;
   this.userInput = [];
+}
+
+// function counter 
+
+Sudoku.prototype.checkRowCount = function() {
+  let rowTotal = 0;
+  this.rowTotal.forEach(function(number){
+    rowTotal += number;
+  })
+    return rowTotal;
+}
+
+Sudoku.prototype.checkColumnCount = function() {
+  let columnTotal = 0;
+  this.columnTotal.forEach(function(number){
+    total += number;
+  })
+    return columnTotal;
+}
+
+Sudoku.prototype.checkSubGridCount = function() {
+  let subTotal = 0;
+  this.subTotal.forEach(function(number){
+    total += number;
+  })
+    return subTotal;
 }
 
 // export function buildBoard(){

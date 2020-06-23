@@ -1,6 +1,7 @@
 export function Sudoku(colum, row){
-  this.colum = colum;
+  this.column = column;
   this.row = row;
+  this.userInput = [];
 }
 
 // export function buildBoard(){

@@ -3,11 +3,11 @@
 #### _Play the game Sudoku, 2020 ver 1.0_
 
 #### By _Vanessa Guerrero, Spencer Moody, Thomas Glenn & Ian Gregg_
-[new-template-for-code](https://github.com/oldgregg89/updated-new-template-)
+[sudoku](https://github.com/thomasglenngit/sudoku)
 
 ## Description
 
-_Sudoku is a game where players must fill in a 9 x 9 board with the numbers 1 through 9._
+_Sudoku is a game where players must fill in a 9 x 9 board with the numbers 1 through 9. It consists of a grid which is usually made up of nine rows, nine columns, and nine boxes that are separated by thicker, darker lines. Some of these boxes will contain numerals from 1 to 9. To solve the puzzle, a person must fill in all the empty squares without using the same numeral twice in each column, row, or box, and without changing the numerals that are already in the grid._
 
 ## Setup/Installation Requirements
 
@@ -21,8 +21,9 @@ __
 ## Specs
 
 | Behavior    | Input | Output |
-| :---------- | ----- | -----: |
-| behavior 1 | 'click' box | 'large', 'Med', Or 'small' |
+| :---------- | :----- | :----- |
+| Diplay a 9x9 grid | none | grid is displayed |
+| Display a number in a cell | "9" | "9" |
 | behavior 2 | 'click' sauce | 'pesto', 'Alfredo', Or 'Marinara'  |
 | behavior 3 | 'click' check boxs | adds toppings choosen |
 | behavior 4 | 'click' Submit | final price |

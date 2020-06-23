@@ -11,7 +11,7 @@ $(document).ready(function() {
   $('#form').submit(function(event) {
     event.preventDefault();
     const goal = $('#number').val();
-    const output = triangle(goal);
+    const output = sudoku(goal);
     output.forEach(function(element) {
       $('#solution').append("<li>" + element + "</li>");
     });

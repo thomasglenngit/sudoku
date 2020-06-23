@@ -1,7 +1,7 @@
 {
-  "name": "new-file",
+  "name": "sudoku",
   "version": "1.0.0",
-  "description": "",
+  "description": "a project to understand TDD",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -11,7 +11,7 @@
     "debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ian Gregg, Spencer Moody, Vanessa Guerrero, Thomas Glenn",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",

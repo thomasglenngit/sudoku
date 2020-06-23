@@ -9,8 +9,8 @@ describe('Sudoku board', () => {
   });
 
   test("total should add to 45", () => {
-    let totalRow = new Sudoku([1,2,3,4,5,6,7,8,9], [0]);
-    let total = totalRow;
+    let totalRow = new Sudoku([0], [1,2,3,4,5,6,7,8,9]);
+    let total = totalRow.checkRowCount();
     expect(totalRow.checkRowCount()).toEqual(total);
   });
 });

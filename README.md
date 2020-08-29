@@ -1,3 +1,6 @@
+
+
+
 # _Sudoku_
 
 #### _Play the game Sudoku, 2020 ver 1.0_
@@ -35,13 +38,9 @@ _No known bugs_
 
 ## Support and contact details
 
-_Contact Ian Gregg: <iangregg188@gmail.com>
+Contact Ian Gregg: <iangregg188@gmail.com>
 
-or
-
-or
-
-or_
+or: Thomas Glenn: <thomasgrantglenn@mac.com>
 
 ## Technologies Used
 
